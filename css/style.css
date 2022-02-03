@@ -45,6 +45,9 @@ a {
   border-radius: 15px;
 }
 
+.navbar-brand {
+  margin-right: 0px;
+}
 
 .title {
   margin-top: 0px;
