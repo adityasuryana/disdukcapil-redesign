@@ -32,6 +32,11 @@ a {
   color: white;
 }
 
+.gray {
+  background-color: #F1F1F1;
+  color: black;
+}
+
 .dark-blue {
   background-color: #032D3D;
 }
@@ -56,9 +61,35 @@ a {
   padding: 20px;
 }
 
+.card-news {
+  text-align: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card-news img {
+  border-radius: 15px;
+  width: 250px;
+}
+
 .icon {
   align-self: center;
   text-align: center;
   font-size: 40px;
-  margin-bottom: 10px;
+}
+
+.stats {
+  max-width: 120px;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #F1F1F1;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+footer a {
+  color: black;
 }
