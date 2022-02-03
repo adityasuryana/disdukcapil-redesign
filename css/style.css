@@ -45,10 +45,6 @@ a {
   border-radius: 15px;
 }
 
-.navbar-brand {
-  margin-right: 0px;
-}
-
 .title {
   margin-top: 0px;
   font-size: 20px;
@@ -63,6 +59,14 @@ a {
   text-align: center;
   color: #032D3D;
   padding: 18px;
+}
+
+.sub-service {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-news {
