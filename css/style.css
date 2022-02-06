@@ -234,6 +234,13 @@ select {
   border-radius: 8px;
 }
 
+@media (max-width: 575.98px) {
+  .icon {
+    font-size: 30px;
+  }
+
+}
+
 footer {
   margin-top: 40px;
   background-color: #F1F1F1;
