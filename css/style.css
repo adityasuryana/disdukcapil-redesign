@@ -20,6 +20,36 @@ img {
     pointer-events: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input, select {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #F1F1F1;
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #F1F1F1;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+}
+
+select {
+  cursor: pointer;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -87,7 +117,7 @@ img {
 
 .card-news {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   flex-wrap: wrap;
 }
 
@@ -112,6 +142,49 @@ img {
   width: max-content;
   margin-top: 8px;
   margin-bottom: 0px;
+}
+
+.form-group {
+  display: grid;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.form-row button {
+  padding: 8px 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-contact {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.contact-group {
+  margin: 10px;
+  align-self: center;
+  display: flex;
+}
+
+.contact-group p {
+  align-self: center;
+  margin-bottom: 0px;
+}
+
+.icon-box {
+  padding: 12px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
 }
 
 footer {
