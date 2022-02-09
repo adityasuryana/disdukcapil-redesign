@@ -127,6 +127,26 @@ select {
   width: 100%;
 }
 
+.body-news {
+  padding: 35px;
+}
+
+.header-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.text-news {
+  text-align: justify;
+  line-height: 28px;
+}
+
+.thumb-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
 .icon {
   align-self: center;
   text-align: center;
@@ -189,7 +209,7 @@ select {
   border-radius: 10px;
   display: flex;
   margin-right: 20px;
-  align-items: center;
+  justify-content: center;
 }
 
 .nav-item {
