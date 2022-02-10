@@ -79,6 +79,11 @@ select {
   color: black;
 }
 
+.white {
+  background-color: white;
+  color: black;
+}
+
 .dark-blue {
   background-color: #032D3D;
 }
